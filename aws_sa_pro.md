@@ -21,17 +21,36 @@
 <details>
   <summary>What is a VPC endpoint?</summary>
   
-  Entry point in your VPC to a service. Horizontally scaled, redundant and HA VPC device.
+  Entry point in your VPC to a service. Horizontally scaled, redundant and HA VPC device. There's two types; gateway and interface.
 </details>
 
 <details>
-  <summary>What is a Interface endpoint?</summary>
+  <summary>What is a Interface type endpoint?</summary>
   
   ENI with private IP, serves as entry point for traffic destined to a service owned by AWS.
 </details>
 
 <details>
-  <summary>What is a Gateway endpoint?</summary>
+  <summary>What is a Gateway type endpoint?</summary>
   
-  Target for a route for traffic destined to S3 or DynamoDB
+   Gateway type endpoints are available only for AWS services including S3 and DynamoDB. These endpoints will add an entry to your route table you selected and route the traffic to the supported services through Amazon’s private network. 
 </details>
+
+<details>
+  <summary>Egress-only Internet Gateway?</summary>
+
+  A stateful gateway to provide egress only access for IPv6 traffic from the VPC to the Internet.
+</details>
+
+<details>
+  <summary>VPC Endpoints?</summary>
+
+  Enables private connectivity to services hosted in AWS, from within your VPC without using an Internet Gateway, VPN, Network Address Translation (NAT) devices, or firewall proxies.
+</details>
+
+<details>
+  <summary>Virtual private gateway?</summary>
+
+  The Amazon VPC side of a VPN connection.
+</details>
+
