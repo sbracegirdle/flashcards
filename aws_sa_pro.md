@@ -43,12 +43,6 @@
 </details>
 
 <details>
-  <summary>VPC Endpoints?</summary>
-
-  Enables private connectivity to services hosted in AWS, from within your VPC without using an Internet Gateway, VPN, Network Address Translation (NAT) devices, or firewall proxies.
-</details>
-
-<details>
   <summary>Virtual private gateway?</summary>
 
   The Amazon VPC side of a VPN connection.
